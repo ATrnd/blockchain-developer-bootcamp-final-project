@@ -1,0 +1,55 @@
+body,
+div,
+p,
+h1,
+h2,
+img,
+ul,
+li,
+a,
+form,
+textarea,
+input,
+button,
+table,
+th,
+tr,
+td,
+span {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+button,
+input {
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+input {
+  outline: 0;
+  background: transparent; }
+
+a:focus {
+  outline: none; }
+
+li {
+  list-style-type: none;
+  display: block; }
+
+section, article, aside, footer, header, nav {
+  display: block; }
+
+textarea {
+  resize: none; }
+
+pre {
+  font-size: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>whitelist dApp</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+
+    <div class="sys-wrap">
+
+    <div>
+        <button class="wallet-test-btn">1. test window.ethereum</button>
+        <p class="wallet-test-p"></p>
+    </div>
+    <hr>
+
+    <div>
+        <button class="wallet-connect-btn">2. connect wallet</button>
+        <p class="wallet-connect-p"></p>
+        <p class="wallet-address-p"></p>
+    </div>
+    <hr>
+
+    <div class="contract-trigger-container">
+        <button class="contract-trigger-btn">3. contract access</button>
+        <p class="contract-trigger-p"></p>
+        <p class="contract-result-p"></p>
+        <p class="contract-UI-p mt-05em"></p>
+        <ul class="acc-display mt-05em"></ul>
+        <div class="contract-UI-container"></div>
+    </div>
+    <hr>
+
+    <div class="sys-flag-container">
+        <hr>
+        <ul>
+            <li>wallet detection flag : (<span class="wallet-detected-flag">-</span>)</li>
+            <li>metamask connection flag : (<span class="wallet-connection-flag">-</span>)</li>
+            <li>contract admin flag : (<span class="contract-access-flag">-</span>)</li>
+        </ul>
+    </div>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="js/app_2.0.js"></script>
+</body>
+</html>

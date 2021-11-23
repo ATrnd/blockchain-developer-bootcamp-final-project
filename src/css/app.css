@@ -1,0 +1,55 @@
+.sys-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 50px;
+}
+
+button {
+  font-family: monospace;
+  padding: 7px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.account-role-container {
+  width: 100%;
+}
+
+.admin-UI-container {
+  margin-top: 0.5em;
+}
+
+.admin-ui-input {
+  display: block;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 7px;
+  font-family: monospace;
+}
+
+.read-whitelist-address {
+  margin-top: 0.5em;
+}
+
+.sys-flag-container {
+  width: 100%;
+}
+
+.mt-05em {
+  margin-top: 0.5em;
+}
+
+.mb-05em {
+  margin-bottom: 0.5em;
+}
+
+.hl-class {
+  font-weight: bold;
+}
+
