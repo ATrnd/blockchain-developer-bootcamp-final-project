@@ -18,17 +18,17 @@ The project was created with truffle.
 - The <code>test/</code> folder contains a test file.
 
 ## The frontend project can be accessed @
-[Decentra-CRUD](https://atrnd.github.io/)
+<a href="https://atrnd.github.io/" target="_blank">Decentra-CRUD</a>
 
 ## Public Ethereum account
 0xAcc257213D080DB495149F248561ac94e1C2BC29
 
 ## Installing dependencies
 ### Prerequisites
-- [Node.js](https://nodejs.org/en/download/) >= v16
-- [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation) >= v5.4.9
-- [Ganache](https://www.trufflesuite.com/ganache) >= 2.5.4
-- [Metamask](https://metamask.io/)
+- <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a> >= v16
+- <a href="https://www.trufflesuite.com/docs/truffle/getting-started/installation" target="_blank">Truffle</a> >= v5.4.9
+- <a href="https://www.trufflesuite.com/ganache" target="_blank">Ganache</a> >= 2.5.4
+- <a href="https://metamask.io/" target="_blank">Metamask</a>
 
 ### NPM
 - <code>npm install -g live-server</code>
@@ -43,4 +43,4 @@ The project was created with truffle.
 - port: 8545
 
 ## Screencast
-[Decentra-CRUD](https://vimeo.com/649501922/2b0ce280cc)
+- <a href="https://vimeo.com/649501922/2b0ce280cc" target="_blank">Decentra-CRUD</a>
