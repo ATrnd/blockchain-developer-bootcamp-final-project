@@ -98,7 +98,7 @@ contract Whitelist is Ownable, ReentrancyGuard {
   /**
    * @dev Returns the index of the input address from the 'whitelistedAccounts' array.
    */
-  function returnAccountIndex(address _address) public view returns (uint accountIndex){
+  function returnAccountIndex(address _address) public view returns (uint accountIndex) {
     accountIndex = whitelistedIndexes[_address];
   }
 
